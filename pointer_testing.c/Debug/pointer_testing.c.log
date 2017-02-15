@@ -1,0 +1,17 @@
+﻿Build started 2017/2/12 16:18:41.
+     1>Project "c:\Users\ljxia_000\documents\visual studio 2015\Projects\pointer_testing.c\pointer_testing.c.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt pointer_testing.c
+         pointer_testing.c
+     1>c:\users\ljxia_000\documents\visual studio 2015\projects\pointer_testing.c\pointer_testing.c(6): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
+     1>c:\users\ljxia_000\documents\visual studio 2015\projects\pointer_testing.c\pointer_testing.c(9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'int *'
+     1>c:\users\ljxia_000\documents\visual studio 2015\projects\pointer_testing.c\pointer_testing.c(10): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int *'
+     1>c:\users\ljxia_000\documents\visual studio 2015\projects\pointer_testing.c\pointer_testing.c(10): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 2 has type 'int **'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ljxia_000\documents\visual studio 2015\Projects\pointer_testing.c\Debug\pointer_testing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\ljxia_000\documents\visual studio 2015\Projects\pointer_testing.c\Debug\pointer_testing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ljxia_000\documents\visual studio 2015\Projects\pointer_testing.c\Debug\pointer_testing.lib" /MACHINE:X86 Debug\pointer_testing.obj
+         pointer_testing.c.vcxproj -> c:\users\ljxia_000\documents\visual studio 2015\Projects\pointer_testing.c\Debug\pointer_testing.exe
+     1>Done Building Project "c:\Users\ljxia_000\documents\visual studio 2015\Projects\pointer_testing.c\pointer_testing.c.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
