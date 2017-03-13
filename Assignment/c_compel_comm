@@ -1,0 +1,3 @@
+// for p-thread
+gcc -g -wall -o name name.c -lphtread -lm 
+
